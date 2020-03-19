@@ -1,0 +1,23 @@
+{
+  "name": "merng",
+  "version": "1.0.0",
+  "description": "merng backend for react app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
